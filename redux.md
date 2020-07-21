@@ -24,8 +24,17 @@
 - state是只读的，只能通过dispatch去修改，并返回一个新对象
 - reducer必须是纯函数
 
-## x. 后续
-1. 如何解决Redux中的异步
+### 1.4 keywords
+- 纯函数
+- 函数柯里化
+- 闭包
+- 订阅发布
+- 中间件
+- compose
+
+### 1.5 相关包
+- react-reudx
+- redux-thunk
 
 ## y. 参考文档
 - [图解 Flux](https://zhuanlan.zhihu.com/p/20263396)

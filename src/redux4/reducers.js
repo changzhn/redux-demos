@@ -1,7 +1,7 @@
 import * as actionTypes from './ACTION_TYPES';
 
 const defaultStore = {
-    count: 1
+    count: 100
 }
 
 function reducers(store = defaultStore, action) {

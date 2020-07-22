@@ -26,12 +26,9 @@ const mapState2props = state => ({
     count: state.count,
 })
 
-const mapDispatch2props = dispatch => {
-    console.log(dispatch)
-    return {
-        add: (...args) => dispatch(addAction(...args)),
-        minus: (...args) => dispatch(minusAction(...args)),
-    }
-}
+const mapDispatch2props = dispatch => ({
+    add: (...args) => dispatch(addAction(...args)),
+    minus: (...args) => dispatch(minusAction(...args)),
+})
 
 export default connect(mapState2props, mapDispatch2props)(Demo4);

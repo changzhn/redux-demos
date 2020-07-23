@@ -8,7 +8,7 @@ import logger2 from '../middlewares/logger2';
 
 const enhancedCreateStore = applyMiddleware(
     logger, 
-    logger2,
+    // logger2,
 )(createStore)
 
 const reducers = combineReducers({

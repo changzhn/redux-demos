@@ -34,7 +34,12 @@
 
 ### 1.5 相关包
 - react-reudx
+
 - redux-thunk
+- redux-saga
+- redux-promise
+
+
 
 ## y. 参考文档
 - [图解 Flux](https://zhuanlan.zhihu.com/p/20263396)

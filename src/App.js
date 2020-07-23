@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div className="App">
         {/* <Demo1 /> */}
-        {/* <Demo2 /> */}
+        <Demo2 />
         {/* <Demo3Provider /> */}
         {/* <Demo4Provider /> */}
-        <Demo5Provider />
+        {/* <Demo5Provider /> */}
       </div>
     );
   }

@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Demo1 /> */}
+        <Demo1 />
         {/* <Demo2 /> */}
-        <Demo2_1Provider />
+        {/* <Demo2_1Provider /> */}
         {/* <Demo3Provider /> */}
         {/* <Demo4Provider /> */}
         {/* <Demo5Provider /> */}

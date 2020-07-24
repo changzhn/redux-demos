@@ -2,9 +2,6 @@
 
 [toc]
 
-
-## 1. Redux 解决了哪些问题
-
 ### 1.1 React 组件传值的方式
 - 父子组件传值使用 props + callback
 - 兄弟组件使用父组件传递状态
@@ -39,9 +36,18 @@
 - redux-saga
 - redux-promise
 
+### 1.6 
+- demo1 redux基础应用
+- demo2 redux的combineReducer和applyMiddleware
+- demo3 react-redux
+- demo2.1 redux-thunk的应用
+- demo4 react-redux原理
+- demo5 useReducer
+
 
 
 ## y. 参考文档
 - [图解 Flux](https://zhuanlan.zhihu.com/p/20263396)
 - [Redux设计思想与使用场景](https://segmentfault.com/a/1190000015367584)
 - [为什么redux要返回一个新的state引发的血案](https://juejin.im/post/5c1b6925e51d455ac91d6bac)
+- [Redux源码分析(3) - applyMiddleware](https://juejin.im/post/5ea0165ef265da47b177ac6f)
